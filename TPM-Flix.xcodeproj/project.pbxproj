@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8354104210977B90020584B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8354103210977B90020584B /* AppDelegate.swift */; };
+		F8354106210977B90020584B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8354105210977B90020584B /* ViewController.swift */; };
+		F8354109210977B90020584B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8354107210977B90020584B /* Main.storyboard */; };
+		F835410B210977BA0020584B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F835410A210977BA0020584B /* Assets.xcassets */; };
+		F835410E210977BA0020584B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F835410C210977BA0020584B /* LaunchScreen.storyboard */; };
+		F8354119210977BA0020584B /* TPM_FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8354118210977BA0020584B /* TPM_FlixTests.swift */; };
+		F8354124210977BA0020584B /* TPM_FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8354123210977BA0020584B /* TPM_FlixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8354115210977BA0020584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83540F8210977B80020584B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83540FF210977B90020584B;
+			remoteInfo = "TPM-Flix";
+		};
+		F8354120210977BA0020584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83540F8210977B80020584B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83540FF210977B90020584B;
+			remoteInfo = "TPM-Flix";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8354100210977B90020584B /* TPM-Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TPM-Flix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8354103210977B90020584B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8354105210977B90020584B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8354108210977B90020584B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F835410A210977BA0020584B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F835410D210977BA0020584B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F835410F210977BA0020584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8354114210977BA0020584B /* TPM-FlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPM-FlixTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8354118210977BA0020584B /* TPM_FlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPM_FlixTests.swift; sourceTree = "<group>"; };
+		F835411A210977BA0020584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F835411F210977BA0020584B /* TPM-FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPM-FlixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8354123210977BA0020584B /* TPM_FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPM_FlixUITests.swift; sourceTree = "<group>"; };
+		F8354125210977BA0020584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83540FD210977B90020584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8354111210977BA0020584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F835411C210977BA0020584B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F83540F7210977B80020584B = {
+			isa = PBXGroup;
+			children = (
+				F8354102210977B90020584B /* TPM-Flix */,
+				F8354117210977BA0020584B /* TPM-FlixTests */,
+				F8354122210977BA0020584B /* TPM-FlixUITests */,
+				F8354101210977B90020584B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8354101210977B90020584B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8354100210977B90020584B /* TPM-Flix.app */,
+				F8354114210977BA0020584B /* TPM-FlixTests.xctest */,
+				F835411F210977BA0020584B /* TPM-FlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8354102210977B90020584B /* TPM-Flix */ = {
+			isa = PBXGroup;
+			children = (
+				F8354103210977B90020584B /* AppDelegate.swift */,
+				F8354105210977B90020584B /* ViewController.swift */,
+				F8354107210977B90020584B /* Main.storyboard */,
+				F835410A210977BA0020584B /* Assets.xcassets */,
+				F835410C210977BA0020584B /* LaunchScreen.storyboard */,
+				F835410F210977BA0020584B /* Info.plist */,
+			);
+			path = "TPM-Flix";
+			sourceTree = "<group>";
+		};
+		F8354117210977BA0020584B /* TPM-FlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8354118210977BA0020584B /* TPM_FlixTests.swift */,
+				F835411A210977BA0020584B /* Info.plist */,
+			);
+			path = "TPM-FlixTests";
+			sourceTree = "<group>";
+		};
+		F8354122210977BA0020584B /* TPM-FlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8354123210977BA0020584B /* TPM_FlixUITests.swift */,
+				F8354125210977BA0020584B /* Info.plist */,
+			);
+			path = "TPM-FlixUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83540FF210977B90020584B /* TPM-Flix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8354128210977BA0020584B /* Build configuration list for PBXNativeTarget "TPM-Flix" */;
+			buildPhases = (
+				F83540FC210977B90020584B /* Sources */,
+				F83540FD210977B90020584B /* Frameworks */,
+				F83540FE210977B90020584B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPM-Flix";
+			productName = "TPM-Flix";
+			productReference = F8354100210977B90020584B /* TPM-Flix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8354113210977BA0020584B /* TPM-FlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F835412B210977BA0020584B /* Build configuration list for PBXNativeTarget "TPM-FlixTests" */;
+			buildPhases = (
+				F8354110210977BA0020584B /* Sources */,
+				F8354111210977BA0020584B /* Frameworks */,
+				F8354112210977BA0020584B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8354116210977BA0020584B /* PBXTargetDependency */,
+			);
+			name = "TPM-FlixTests";
+			productName = "TPM-FlixTests";
+			productReference = F8354114210977BA0020584B /* TPM-FlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F835411E210977BA0020584B /* TPM-FlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F835412E210977BA0020584B /* Build configuration list for PBXNativeTarget "TPM-FlixUITests" */;
+			buildPhases = (
+				F835411B210977BA0020584B /* Sources */,
+				F835411C210977BA0020584B /* Frameworks */,
+				F835411D210977BA0020584B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8354121210977BA0020584B /* PBXTargetDependency */,
+			);
+			name = "TPM-FlixUITests";
+			productName = "TPM-FlixUITests";
+			productReference = F835411F210977BA0020584B /* TPM-FlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83540F8210977B80020584B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Anish Adhikari";
+				TargetAttributes = {
+					F83540FF210977B90020584B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F8354113210977BA0020584B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F83540FF210977B90020584B;
+					};
+					F835411E210977BA0020584B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F83540FF210977B90020584B;
+					};
+				};
+			};
+			buildConfigurationList = F83540FB210977B80020584B /* Build configuration list for PBXProject "TPM-Flix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F83540F7210977B80020584B;
+			productRefGroup = F8354101210977B90020584B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83540FF210977B90020584B /* TPM-Flix */,
+				F8354113210977BA0020584B /* TPM-FlixTests */,
+				F835411E210977BA0020584B /* TPM-FlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83540FE210977B90020584B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F835410E210977BA0020584B /* LaunchScreen.storyboard in Resources */,
+				F835410B210977BA0020584B /* Assets.xcassets in Resources */,
+				F8354109210977B90020584B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8354112210977BA0020584B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F835411D210977BA0020584B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83540FC210977B90020584B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8354106210977B90020584B /* ViewController.swift in Sources */,
+				F8354104210977B90020584B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8354110210977BA0020584B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8354119210977BA0020584B /* TPM_FlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F835411B210977BA0020584B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8354124210977BA0020584B /* TPM_FlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8354116210977BA0020584B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83540FF210977B90020584B /* TPM-Flix */;
+			targetProxy = F8354115210977BA0020584B /* PBXContainerItemProxy */;
+		};
+		F8354121210977BA0020584B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83540FF210977B90020584B /* TPM-Flix */;
+			targetProxy = F8354120210977BA0020584B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8354107210977B90020584B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8354108210977B90020584B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F835410C210977BA0020584B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F835410D210977BA0020584B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8354126210977BA0020584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8354127210977BA0020584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8354129210977BA0020584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = "TPM-Flix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadhikari.TPM-Flix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F835412A210977BA0020584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = "TPM-Flix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadhikari.TPM-Flix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F835412C210977BA0020584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = "TPM-FlixTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadhikari.TPM-FlixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPM-Flix.app/TPM-Flix";
+			};
+			name = Debug;
+		};
+		F835412D210977BA0020584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = "TPM-FlixTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadhikari.TPM-FlixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPM-Flix.app/TPM-Flix";
+			};
+			name = Release;
+		};
+		F835412F210977BA0020584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = "TPM-FlixUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadhikari.TPM-FlixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TPM-Flix";
+			};
+			name = Debug;
+		};
+		F8354130210977BA0020584B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JTJHCFQH8;
+				INFOPLIST_FILE = "TPM-FlixUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadhikari.TPM-FlixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TPM-Flix";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83540FB210977B80020584B /* Build configuration list for PBXProject "TPM-Flix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8354126210977BA0020584B /* Debug */,
+				F8354127210977BA0020584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8354128210977BA0020584B /* Build configuration list for PBXNativeTarget "TPM-Flix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8354129210977BA0020584B /* Debug */,
+				F835412A210977BA0020584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F835412B210977BA0020584B /* Build configuration list for PBXNativeTarget "TPM-FlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F835412C210977BA0020584B /* Debug */,
+				F835412D210977BA0020584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F835412E210977BA0020584B /* Build configuration list for PBXNativeTarget "TPM-FlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F835412F210977BA0020584B /* Debug */,
+				F8354130210977BA0020584B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83540F8210977B80020584B /* Project object */;
+}
