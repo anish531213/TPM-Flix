@@ -18,6 +18,7 @@
 		F8354124210977BA0020584B /* TPM_FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8354123210977BA0020584B /* TPM_FlixUITests.swift */; };
 		F835413221097C9A0020584B /* CurrentMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835413121097C9A0020584B /* CurrentMovieViewController.swift */; };
 		F835413421097F090020584B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835413321097F090020584B /* MovieCell.swift */; };
+		F8D37206210AD41400EF5658 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D37205210AD41400EF5658 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F8354125210977BA0020584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F835413121097C9A0020584B /* CurrentMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentMovieViewController.swift; sourceTree = "<group>"; };
 		F835413321097F090020584B /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F8D37205210AD41400EF5658 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				F835410F210977BA0020584B /* Info.plist */,
 				F835413121097C9A0020584B /* CurrentMovieViewController.swift */,
 				F835413321097F090020584B /* MovieCell.swift */,
+				F8D37205210AD41400EF5658 /* DetailViewController.swift */,
 			);
 			path = "TPM-Flix";
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				F835413221097C9A0020584B /* CurrentMovieViewController.swift in Sources */,
 				F8354104210977B90020584B /* AppDelegate.swift in Sources */,
 				F835413421097F090020584B /* MovieCell.swift in Sources */,
+				F8D37206210AD41400EF5658 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

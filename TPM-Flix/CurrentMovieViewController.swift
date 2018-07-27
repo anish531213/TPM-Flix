@@ -83,6 +83,28 @@ class CurrentMovieViewController: UIViewController, UITableViewDelegate, UITable
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let movie = movies[indexPath.row]
+            let detailViewController = segue.destination as! DetailViewController
+            
+            let movieTitle = movie["original_title"] as! String
+            let movieDescription = movie["overview"] as! String
+            let posterPath = movie["poster_path"] as! String
+            let backdropPath = movie["backdrop_path"] as! String
+            let releaseDate = movie["release_date"] as! String
+            
+            detailViewController.titleLabel.text = movieTitle
+            detailViewController.descriptionLabel.text = movieDescription
+            detailViewController.posterPath = posterPath
+            detailViewController.backDropPath = backdropPath
+            detailViewController.releaseLabel.text = releaseDate
+            
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
