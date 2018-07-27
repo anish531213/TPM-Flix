@@ -1,0 +1,6 @@
+framework module Pods_TPM_FlixUITests {
+  umbrella header "Pods-TPM-FlixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
