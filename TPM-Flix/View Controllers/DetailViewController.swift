@@ -17,6 +17,10 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var releaseLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    
+    var titleString: String = ""
+    var releaseString: String = ""
+    var descriptionString: String = ""
     var backDropPath: String = ""
     var posterPath: String = ""
     let baseUrlString: String = "https://image.tmdb.org/t/p/w500"
@@ -30,6 +34,10 @@ class DetailViewController: UIViewController {
         
         backdropImageView.af_setImage(withURL: backDropUrl!)
         posterImageView.af_setImage(withURL: posterUrl!)
+        
+        titleLabel.text = titleString
+        releaseLabel.text = releaseString
+        descriptionLabel.text = descriptionString
     }
 
     override func didReceiveMemoryWarning() {

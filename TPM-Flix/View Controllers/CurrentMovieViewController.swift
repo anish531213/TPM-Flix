@@ -96,12 +96,12 @@ class CurrentMovieViewController: UIViewController, UITableViewDelegate, UITable
             let backdropPath = movie["backdrop_path"] as! String
             let releaseDate = movie["release_date"] as! String
             
-            detailViewController.titleLabel.text = movieTitle
-            detailViewController.descriptionLabel.text = movieDescription
+            detailViewController.titleString = movieTitle
+            detailViewController.descriptionString = movieDescription
+            detailViewController.releaseString = releaseDate
             detailViewController.posterPath = posterPath
             detailViewController.backDropPath = backdropPath
-            detailViewController.releaseLabel.text = releaseDate
-            
+                 
             tableView.deselectRow(at: indexPath, animated: true)
         }
     }
